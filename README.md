@@ -68,7 +68,7 @@ Change all services hostnames from your hortonworks cluster!
 
 ## 2.4. Start knox
 ```bash
- su -l knox -c "$gateway_home/bin/gateway.sh setup"
+ su -l knox -c "$gateway_home/bin/gateway.sh start"
 ```
 
 ### 2.4.1. Testing knox with guest account (inbuild LDAP)
